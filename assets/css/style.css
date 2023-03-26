@@ -1,1 +1,60 @@
-:root{ background-color: aqua;}
+:root {
+    --dark: #13293d;
+    --light: #fff;
+    --navlink-color: #b9c6ae;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+header { 
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1%;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    margin: 2% 0;
+    font-size: 175%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+background-color: unset;
+color: var(--navlink-color);
+font-weight: bold;
+text-decoration: none
+}
+
+nav :hover {
+color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
