@@ -4,10 +4,15 @@
     --navlink-color: #b9c6ae;
 }
 
+html{ background-image: url('https://images.hdqwalls.com/download/nebula-space-blue-12k-2v-1366x768.jpg');
+
+
+}
+
 body {
     display:flex;
     flex-direction: column;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 header { 
@@ -15,22 +20,13 @@ header {
     justify-content:space-between;
     align-items:center;
     padding: 1%;
-    background-color: var(--dark);
-    color: var(--light);
-}
-
-
-h1 {
-    font-size: 200%;
-}
-
-h2 {
-    margin: 2% 0;
-    font-size: 175%;
+    background-image: linear-gradient(rgba(6, 122, 70, 0.864), rgb(0, 55, 255))
+   
 }
 
 nav ul {
     display: flex;
+    list-style-type: none;
     justify-content: space-between;
     min-width: 300px;
 }
@@ -48,6 +44,57 @@ color:white;
 }
 
 
+section {
+
+
+
+
+
+
+
+
+}
+
+
+article{
+
+
+
+
+
+
+
+
+
+}
+
+
+footer {
+    
+
+    
+    
+
+
+
+    
+}
+
+footer ul {
+    display: flex;
+    flex-flow: reverse wrap;
+    justify-content: space-around;
+    
+    
+    
+   
+    
+    
+
+
+
+
+}
 
 
 
