@@ -27,7 +27,7 @@ nav ul {
 nav a {
 color: var(--navlink-color);
 font-weight: bold;
-text-decoration: none
+text-decoration: none;
 }
 
 nav :hover {
@@ -59,7 +59,7 @@ aside {
 font-size:xx-large,
 padding: 1%;
 background-color: rgba(16, 78, 144, 0.65);
-color: var(--light)
+color: var(--light);
   }
 
 strong { color: #e011eb;}
@@ -110,7 +110,7 @@ footer {
     color: #F5F5EF;
     text-decoration: none;
    display: flex;
-   justify-content: safe;
+   
   }
 
 footer ul {
@@ -132,6 +132,7 @@ color: #F5F5EF;
 }
 
 h1 { padding: 1%;
+
     }
 
 h2 {
@@ -140,7 +141,6 @@ h2 {
     justify-content: center;
     color: var(--light);
     text-decoration: underline;
-
 }
 
 Small screens /
