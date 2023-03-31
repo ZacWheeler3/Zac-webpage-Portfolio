@@ -46,7 +46,7 @@ section {
   }
   
   .image-with-text p {
-    overflow: auto; /* clear float */
+    overflow: auto; 
     color: #F5F5EF;
   }
 
@@ -78,12 +78,10 @@ article {
 }
 
 article p {
-    -webkit-border-radius: 21;
+  -webkit-border-radius: 21;
   -moz-border-radius: 21;
   border-radius: 21px;
-  color: #36860b;
   font-size: 20px;
-  /* background: #1f2839; */
   padding: 30px 30px 30px 30px;
   text-decoration: none;
   list-style-type: none;
@@ -97,15 +95,11 @@ article :hover {
 
 article a {
     list-style-type: none;
-
-
-
 }
 
 footer {
     height: 150px;
     justify-content: space-evenly;
-    /* background-color: #1F2839; */
     color: #F5F5EF;
     padding: 1%;
     background-color: rgba(16, 78, 144, 0.65);
@@ -138,9 +132,7 @@ color: #F5F5EF;
 }
 
 h1 { padding: 1%;
-    color: ;
-
-}
+    }
 
 h2 {
     font-size: xx-large;
@@ -148,8 +140,6 @@ h2 {
     justify-content: center;
     color: var(--light);
     text-decoration: underline;
-
-
 
 }
 
