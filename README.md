@@ -7,7 +7,8 @@ Creating a Portfolio
 
 ## Created live portfolio for interviews in the future
 
-Live Site: https://github.com/ZacWheeler3/challenge-2.0
+Github Repo: https://github.com/ZacWheeler3/challenge-2.0
+Live Site: https://zacwheeler3.github.io/challenge-2.0/
 
 ## User Story 
 
