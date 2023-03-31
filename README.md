@@ -19,8 +19,4 @@ SO THAT business/companies can be directed to see my work.
 GIVEN a webpage meets accesibility standards
 WHEN I view the source code.
 
-<<<<<<< HEAD
 ![Portfolio Preview](Screenshot%202023-03-30%20215859.png) "Zac Portfolio")
-=======
-
->>>>>>> origin/main
