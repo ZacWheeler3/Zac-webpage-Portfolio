@@ -1,63 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="UTF 8">    
-<title>Zac Wheeler</title>
-<link rel="stylesheet" href="./assets/css/style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio webpage</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--css-->
+    <link rel="stylesheet" href="assets\css\style.css">
 </head>
 
-    <header>      
-    <h1>Zac Wheeler | Portfolio </h1>
-       <nav>
-        <ul>
-            <li><a href="#about me">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact me">Contact Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-        </ul>
-        
-     </nav>
-     </header>  
-    
-     <aside class="image-with-text">
-        <img src ="https://media.discordapp.net/attachments/990816889657778196/1090122047780302938/Samuraiizac_super_detailed_4k_ultrahd_linkedin_professional_it__7e65ccf4-f5a6-495c-93ff-cf79548b50f3.png?width=567&height=567" alt="">
-            <div class = "aboutme">
-                <h2 id="about me">About Me</h2>
-            <p>My name is <strong>Zac Wheeler</strong>, I am fascinated by technology and problem solving! I am currently an 
-            Account Manager with <u><strong>over 3 years experience</u></strong> in the healthcare industry! </p>
-            <p>I have used my skill-set to make a positive impact in healthcare and I am looking to bring my skill-set 
-            into the IT world and make a positive impact once again!</p>      
-            <p>In my spare time I really enjoy learning new things, spending quality time with my wife and two children, working out, and 3D printing!
-            One of my passions in life is critical thinking and being able to solve issues that don't always have a simple solution. 
-            </p>
-    </div>
+<body>
 
-    </aside>
-   
-    <h2 id="work">Work</h2>
-    <article>
-        <p>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Repository</a>
-        </p>
-        <p>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Challenges    
-        </p>
-        <p>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Projects    
-        </p>
-    </article>
+    <!--Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-<footer>
-    <h2 id="contact me">Contact Me</h2>
-        <p> 
-        <ul>
-            <li><a href="tel: 8163321035">816-332-1035</a></li>
-            <li><a href = "mailto: wheelerzac@yahoo.com">Send Email</a></li>
-            <li><a href="https://www.linkedin.com/in/zac-wheeler-76335b180">LinkedIn</a></li>
-            <li><a href="https://github.com/ZacWheeler3">GitHub</a></li>
-            <li><a href="https://open.spotify.com/user/cmckown17">Spotify</a></li>
-         </ul>
-        
-        </p>
-</footer>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi there, I'm</h3>
+            <h1>Zac Wheeler</h1>
+            <h3>and I'm a <span>Full Stack Engineer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatum ipsam, quas architecto optio possimus non voluptas.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-slack'></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://media.discordapp.net/attachments/1085659301005250651/1100271939278348368/229989078_10226068587569584_6338105671074640003_n.png?width=575&height=671">
+        </div>
+    </section>
+
+    <!--javascript link-->
+    <script src="js/script.js"></script>
+</body>
+
 </html>
