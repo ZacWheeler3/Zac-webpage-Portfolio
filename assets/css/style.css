@@ -78,6 +78,8 @@ section {
 
 .home-img img {
   width: 35vw;
+  border-radius: 50px;
+  
 }
 
 .home-content h3 {
