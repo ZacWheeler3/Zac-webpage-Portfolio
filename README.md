@@ -20,4 +20,4 @@ SO THAT business/companies can be directed to see my work.
 GIVEN a webpage meets accesibility standards
 WHEN I view the source code.
 
-![Portfolio Preview](Screenshot%202023-03-30%20215859.png) "Zac Portfolio")
+![Portfolio Preview](https://media.discordapp.net/attachments/1085659301005250651/1109859863107993731/zacportfolio.png?width=1025&height=468) "Zac Portfolio")
